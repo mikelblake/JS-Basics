@@ -175,9 +175,16 @@ x();
 
     // var x = counter();
     // timer();
+
 //Next Problem
-
-
+ var funcArray = []
+ for(var i = 0; i < 6; i++) {
+   (function x (y) {
+    funcArray.push(function (){
+    console.log(y);
+   })
+  })(i);
+}
 
 /*
   Make the following code work
