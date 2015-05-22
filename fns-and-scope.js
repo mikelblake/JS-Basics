@@ -6,14 +6,16 @@ var name = 'Tyler';
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
   //Code Here
-var isTyler = function(name) {
-	if (name === "Tyler") {
+var isTyler = function() {
+	if (name === 'Tyler') {
 		return true;
 	}
 	else {
 		return false;
 	}
 }
+
+isTyler();
 
 //Next problem
 
@@ -91,13 +93,13 @@ alert(newMyName);
 
   //Code Here
 var outerFn = function() {
-	// var x = function() {
-		return "Mikel";
-	// }
+		return function() {
+			return "Mikel";
+		}
 }
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
 var innerFn = outerFn();
 //Now invoke innerFn.
-innerFn;
+innerFn();
