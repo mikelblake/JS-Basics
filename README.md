@@ -1,6 +1,6 @@
 JS-Basics
 =========
-##### Fork this repo, clone your fork, then open practice.js and complete all the activities. 
+##### Fork this repo, clone your fork, then open fns-scopes.js and complete all the activities then open closures.js and complete all of those activities.
 * COMMIT AND PUSH YOUR CODE OFTEN!
 
 
@@ -17,3 +17,5 @@ JS-Basics
   - global and local scope
   - anonymous functions
   - return values and how to save the returned value to another variable
+  - be able to define what a closure is
+  - be able to identify when a closure is being used
